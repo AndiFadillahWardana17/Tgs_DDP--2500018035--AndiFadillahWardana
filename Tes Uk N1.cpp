@@ -8,10 +8,10 @@ int main() {
     cout << "Masukkan angka >1 (dalam satuan detik): ";
     cin >> detik;
 
-    jam = detik / 3600;          // 1 jam = 3600 detik
+    jam = detik / 3600;
     sisa = detik % 3600;
 
-    menit = sisa / 60;           // 1 menit = 60 detik
+    menit = sisa / 60;
     detik_sisa = sisa % 60;
 
     cout << detik << " detik = "
@@ -21,4 +21,5 @@ int main() {
 
     return 0;
 }
+
 
